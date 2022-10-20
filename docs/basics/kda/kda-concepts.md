@@ -20,7 +20,23 @@ In simple terms, “account name” refers to your unique name on the blockchain
 
 Some Kadena account examples:
 
-**Unnamed account** — account name is the same as a single public key
+_**k:account**_ — account name is the same as a single public key with 'k:' in front (standard accounts)
+
+|                                                                   |                                                                   |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Account Name**                                                  | **Public Key ("Keyset")**                                         |
+| k:961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6 | 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6 |
+
+**Account Name**
+
+k:961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
+
+**Public Key ("Keyset")**
+
+961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
+
+
+_**Unnamed account**_ — account name is the same as a single public key (only for advanced users)
 
 |                                                                   |                                                                   |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
@@ -29,13 +45,14 @@ Some Kadena account examples:
 
 **Account Name**
 
+961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
+
 **Public Key ("Keyset")**
 
-- 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
+961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
 
-- 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
 
-**Named account** — account name is some memorable user-defined string
+_**Named account**_ — account name is some memorable user-defined string (only for advanced users)
 
 |                  |                                                                   |
 | ---------------- | ----------------------------------------------------------------- |
@@ -50,7 +67,8 @@ Some Kadena account examples:
 
 - 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
 
-**Multi-signature account** — a single account is governed by multiple keys
+
+_**Multi-signature account**_ — a single account is governed by multiple keys (only for advanced users)
 
 |                  |                                                                                                                                                                                                       |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,12 +76,14 @@ Some Kadena account examples:
 | BoardOfDirectors | 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6 c1cb44cf2327213b29729d1e5f4b70d812 0bc3ab1cbddc60633909324464e6ef 7731d6a6a772dcbf2cd0c8ca5649f902af fd6ed29622738810aa38ef8b307ca7 |
 
 **Account Name**
+BoardOfDirectors
 
 **Public Keys ("Keyset")**
 
-- BoardOfDirectors
+- 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6
+- c1cb44cf2327213b29729d1e5f4b70d812 0bc3ab1cbddc60633909324464e6ef
+- 7731d6a6a772dcbf2cd0c8ca5649f902af fd6ed29622738810aa38ef8b307ca7
 
-- 961fd95b190aeb38850754fee81b42486d 140e44ee78f8f2d9e25ab69c3053b6 - c1cb44cf2327213b29729d1e5f4b70d812 0bc3ab1cbddc60633909324464e6ef - 7731d6a6a772dcbf2cd0c8ca5649f902af fd6ed29622738810aa38ef8b307ca7
 
 All Kadena accounts are comprised of 3 parts:
 
