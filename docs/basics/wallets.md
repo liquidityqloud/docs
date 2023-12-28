@@ -49,8 +49,6 @@ Koala Wallet makes it easier than ever to buy, send, receive, and safely store y
 User-friendly multi-network wallet for storing and trading (3rd party).
 Zelcore has a signing API to interact with dApps on Kadena Chainweb.
 
-[User Guide](https://babening.io/zelcore-guide)
-
 [Zelcore.io](https://zelcore.io)
 
 ### eckoWallet
